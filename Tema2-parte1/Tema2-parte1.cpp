@@ -351,6 +351,7 @@ void display()
 	glUniformMatrix4fv(projMatIdx, 1, GL_FALSE, glm::value_ptr(projMat));
 	glUniformMatrix4fv(viewMatIdx, 1, GL_FALSE, glm::value_ptr(viewMat));
 	glUniformMatrix4fv(modelMatIdx, 1, GL_FALSE, glm::value_ptr(modelMat));
+	
 	draw1Cube();
 
 	// Tarea por hacer (ejer. 1): Aqu� lo desactivamos.
